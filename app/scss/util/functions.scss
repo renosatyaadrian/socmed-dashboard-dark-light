@@ -1,0 +1,12 @@
+//this function to calculate rem based on pixels
+@function rem($pixels, $context: 16) {
+    @return ($pixels / $context) * 1rem;
+}
+
+// examples :
+// h1 {
+//     font-size: rem(30); //this equal to 1.875rem = 30px / 16 
+// }
+
+// in web browser
+// 16px == 1rem

@@ -1,0 +1,42 @@
+// 640px, 1024px, 1400px
+$breakpoints-up: (
+    'medium': '40em',
+    'large': '64em',
+    'xlarge': '87.5em'
+);
+
+// 639px, 1023px, 1399px
+$breakpoints-down: (
+
+    'medium': '39.9375em',
+    'large': '63.9375em',
+    'xlarge': '87.4375em'
+);
+
+@mixin breakpoint($size) {
+    @media (min-width: map-get($breakpoints-up, $size)) {
+        @context;
+    }
+}
+
+@mixin breakpoint-down($size) {
+    @media (min-width: map-get($breakpoints-down, $size)) {
+        @context;
+    }
+}
+
+
+// usages why using mixin
+// examples:
+// h1 {
+//     @include breakpoint(large) {
+//         font-size: 3rem;
+//     }
+// }
+
+// // we dont want to look up for the same size and to get same size at all
+// @media (min-width: 87.5em) {
+//     h1 {
+//         font-size: 3rem;
+//     }
+// }
