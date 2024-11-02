@@ -92,10 +92,11 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 
-install 
-node.js
-https://nodejs.org/en/download/package-manager
 
-npm install gulp-cli -g
+## Requirement
+- node.js
+- https://nodejs.org/en/download/package-manager
 
-npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp-babel gulp-postcss gulp-sass gulp-terser
+## Packages
+- npm install gulp-cli -g
+- npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp-babel gulp-postcss gulp-sass gulp-terser
