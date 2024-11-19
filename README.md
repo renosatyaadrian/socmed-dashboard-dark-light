@@ -1,45 +1,56 @@
-# Frontend Mentor - Social media dashboard with theme switcher
+# Social Media Dashboard with Theme Switcher
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thank you for checking out this project.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+This project is part of the [Frontend Mentor](https://www.frontendmentor.io) challenges. The goal is to enhance your front-end coding skills by building a project based on realistic designs.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and a tiny bit of JavaScript.**
+---
 
-## The challenge
+## 🚀 The Challenge
 
-Your challenge is to build out this Social Media Dashboard and get it looking as close to the design as possible.
+Your challenge is to build this **Social Media Dashboard** and make it look as close as possible to the provided design.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+The main features to implement:
+1. **Responsive Design**: Ensure optimal layout for different screen sizes (desktop and mobile).
+2. **Hover States**: Display hover effects for interactive elements.
+3. **Theme Switcher**: Allow users to toggle between light and dark themes.
 
-Your users should be able to:
+Feel free to use any tools or technologies you want to practice or explore while completing this challenge.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Toggle color theme to their preference
+---
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## 🛠️ Project Guide
 
-## Where to find everything
+### 1. Design
+The project design files are located in the `/design` folder. You will find:
+- **Desktop Design**: For large screens.
+- **Mobile Design**: For smaller screens.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Since the designs are provided in JPG format, you will need to make judgments about styles like:
+- Font sizes (`font-size`).
+- Spacing (padding and margin).
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+For more detailed design files, you can subscribe to [Frontend Mentor PRO](https://www.frontendmentor.io/pro) to access Figma or Sketch versions.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+---
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### 2. Style & Assets
+- All assets required for this project are located in the `/images` folder.
+- Use the `style-guide.md` file as a reference for:
+  - Color palette.
+  - Typography (font-family, text sizes, etc.).
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+---
 
-## Requirement
-- node.js
-- https://nodejs.org/en/download/package-manager
+## 💻 System Requirements
 
-## Packages
-- npm install gulp-cli -g
-- npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp-babel gulp-postcss gulp-sass gulp-terser
+This project requires **Node.js**. If you don’t already have it, download and install it from the [Node.js Download Page](https://nodejs.org/en/download/).
+
+After installation, verify the Node.js and npm versions by running:
+```bash
+node -v
+npm -v
